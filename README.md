@@ -24,7 +24,7 @@ cd ../..
 ## 3. Levantar todos los contenedores
 
 ```bash
-docker-compose up --build
+docker compose up 
 ```
 
 Esto inicia:
