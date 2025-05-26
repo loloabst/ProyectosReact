@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/loloabst/ProyectosReact.git
-cd ProyectoDocker
+cd ProyectosReact
 ```
 
 ---
