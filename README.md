@@ -14,7 +14,7 @@ cd ProyectoDocker
 ```bash
 cd ProyectoDocker/proyectos
 mvn clean package
-cd ..
+cd ../..
 ```
 
 > Esto genera el archivo `.jar` necesario para el contenedor Spring Boot.
