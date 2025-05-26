@@ -1,0 +1,52 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-proyectos
+    restart: always
+    environment:
+      MYSQL_DATABASE: proyectosdb
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - proyectos-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: ./ProyectoDocker/proyectos
+    container_name: springboot-proyectos
+    ports:
+      - "8081:8080"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/proyectosdb?createDatabaseIfNotExist=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: password
+    networks:
+      - proyectos-net
+
+  frontend:
+    build:
+      context: ./proyecto-app
+    container_name: react-frontend
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    networks:
+      - proyectos-net
+
+networks:
+  proyectos-net:
+
+volumes:
+  mysql_data:
