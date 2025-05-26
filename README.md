@@ -3,7 +3,7 @@
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/loloabst/ProyectoDocker.git
+git clone https://github.com/loloabst/ProyectosReact.git
 cd ProyectoDocker
 ```
 
