@@ -30,7 +30,7 @@ docker compose up
 Esto inicia:
 
 - MySQL en el puerto `3306`
-- Spring Boot (API REST) en `http://localhost:8081`
+- Spring Boot (API REST) en `http://localhost:8081/`
 - React frontend en `http://localhost:3000`
 
 ---
