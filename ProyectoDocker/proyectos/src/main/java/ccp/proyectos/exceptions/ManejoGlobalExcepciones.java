@@ -46,12 +46,4 @@ public class ManejoGlobalExcepciones {
         return new ResponseEntity<>(respuesta, HttpStatus.BAD_REQUEST);
     }
 
-    // Captura cualquier excepción no manejada previamente (error inesperado)
-    @ExceptionHandler(Exception.class)
-    public ResponseEntity<HashMap<String, String>> errorGeneral(Exception ex) {
-        HashMap<String, String> respuesta = new HashMap<>();
-        respuesta.put("mensaje", "Error inesperado: " + ex.getMessage());
-        respuesta.put("timestamp", LocalDateTime.now().toString());
-        return new ResponseEntity<>(respuesta, HttpStatus.INTERNAL_SERVER_ERROR);
-    }
 }
