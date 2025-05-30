@@ -9,7 +9,7 @@ cd ProyectosReact
 
 ---
 
-## 3. Levantar todos los contenedores
+## 2. Levantar todos los contenedores
 
 ```bash
 docker compose up 
