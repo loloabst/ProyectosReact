@@ -1,0 +1,9 @@
+ccp/proyectos/repositories/ProyectoRepositorio.class
+ccp/proyectos/dtos/ProyectoParcialDTO.class
+ccp/proyectos/controllers/ProyectoRestController.class
+ccp/proyectos/entities/Proyecto.class
+ccp/proyectos/services/ProyectoServicio.class
+ccp/proyectos/services/interfaces/IProyectoServicio.class
+ccp/proyectos/exceptions/ManejoGlobalExcepciones.class
+ccp/proyectos/ProyectosApplication.class
+ccp/proyectos/config/DataInitializer.class

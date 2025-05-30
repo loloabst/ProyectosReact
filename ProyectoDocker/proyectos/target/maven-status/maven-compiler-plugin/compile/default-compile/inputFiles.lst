@@ -1,0 +1,9 @@
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/ProyectosApplication.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/config/DataInitializer.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/controllers/ProyectoRestController.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/dtos/ProyectoParcialDTO.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/entities/Proyecto.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/exceptions/ManejoGlobalExcepciones.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/repositories/ProyectoRepositorio.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/services/ProyectoServicio.java
+/Users/rvrtdta/Desktop/Software/ProyectosReact/ProyectoDocker/proyectos/src/main/java/ccp/proyectos/services/interfaces/IProyectoServicio.java
