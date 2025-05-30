@@ -9,18 +9,6 @@ cd ProyectosReact
 
 ---
 
-## 2. Compilar la app backend
-
-```bash
-cd ProyectoDocker/proyectos
-mvn clean package
-cd ../..
-```
-
-> Esto genera el archivo `.jar` necesario para el contenedor Spring Boot.
-
----
-
 ## 3. Levantar todos los contenedores
 
 ```bash
